@@ -11,7 +11,7 @@
 </head>
 <body>
 <div id="app">
-    <h2>Test Email</h2>
+    <p>We have received your request</p>
 </div>
 </body>
 </html>

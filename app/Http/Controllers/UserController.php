@@ -29,7 +29,7 @@ class UserController extends Controller
             $user->save();
             $response = ['statusCode' => 200, 'message' => "User saved successfully"];
         } catch (\Exception $e){
-            $response = ['statusCode' => 400, 'message' => "Something went wrong"];
+            $response = ['statusCode' => 400, 'message' => "Something went wrong", 'error' => $e];
         } finally {
             return $response;
         }

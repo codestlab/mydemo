@@ -32,6 +32,6 @@ class UserBrandRequest extends Mailable
     {
         $this->subject('User Brand Request Notification')
             ->view('emails.brand_request')
-            ->attach($this->userDetail);
+            ->attach($this->userDetail); //We can also attach pdf without storing using return $pdf->stream('document.pdf');
     }
 }

@@ -37,22 +37,22 @@
     <div class="row">
         <div class="col-xs-12">
             <div class="invoice-title">
-                <h2>Material Invoice</h2>
+                <h2>User Info</h2>
             </div>
             <hr>
             <div class="row">
                 <table class="">
                     <tr>
-                        <th class="h-40 w-170">From</th>
-                        <td class="h-40 w-170">Munjz</td>
-                    </tr>
-                    <tr>
-                        <th class="h-40 w-170">To</th>
+                        <th class="h-40 w-170">Name</th>
                         <td class="h-40 w-170">{{ $name }}</td>
                     </tr>
                     <tr>
-                        <th class="h-40 w-170">Invoice No.</th>
+                        <th class="h-40 w-170">Email</th>
                         <td class="h-40 w-170">{{ $email }}</td>
+                    </tr>
+                    <tr>
+                        <th class="h-40 w-170">Brand Name</th>
+                        <td class="h-40 w-170">{{ $brandName }}</td>
                     </tr>
                 </table>
             </div>

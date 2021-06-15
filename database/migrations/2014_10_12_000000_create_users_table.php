@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('password')->nullable();
             $table->string('brand_name');
             $table->text('cr_file')->nullable();
-            $table->text('user_detail');
+            $table->text('user_detail')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
